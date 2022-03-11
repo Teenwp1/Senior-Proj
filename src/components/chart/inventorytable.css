@@ -1,0 +1,39 @@
+.inventorytableContainer {
+  margin: 5px;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.inventorytableContainer > span {
+  align-items: center;
+  display: flex;
+  color: #c8cacf;
+}
+.inventorytable {
+  flex: 4;
+}
+
+.inventorytableTitle {
+  margin-bottom: 20px;
+}
+
+.inventorytableEdit {
+  color: gray;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.inventorytableInspect {
+  color: gray;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.inventorytableMore {
+  color: gray;
+  cursor: pointer;
+}

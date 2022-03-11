@@ -1,0 +1,76 @@
+.inventory {
+  flex: 4;
+  padding: 20px;
+}
+.inventoryTitleContainer {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.inventorySearch {
+  display: flex;
+  margin-left: 20px;
+}
+.inventorySearch > input {
+  margin-right: 10px;
+  text-indent: 10px;
+  border: none;
+  padding: 5px;
+  width: 600px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+.inventorySearchButton {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1c3355;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.inventorySearchByButton {
+  border: none;
+  border-radius: 5px;
+  background-color: #668e65;
+  color: white;
+  width: 180px;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.inventoryRecommend {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.inventoryRecommendTitle {
+  margin-right: 10px;
+}
+
+.inventoryRecommend > button {
+  margin-right: 15px;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 100px;
+  color: white;
+  background-color: #b4c0de;
+  cursor: pointer;
+}
+
+.inventoryResult {
+  margin: 5px 20px; /*top-bottom=0px, left-right=20px*/
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,37 @@
+.tasktable {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 1);
+}
+
+.tasktableTitle {
+  padding: 20px;
+}
+
+.tasktableStatus {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #4aaf05;
+  color: white;
+
+  margin-right: 20px;
+}
+
+.tasktableEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #1c3355;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.tasktableDelete {
+  cursor: pointer;
+  color: gray;
+}

@@ -1,0 +1,37 @@
+.forecast {
+  flex: 4;
+  padding: 20px;
+}
+
+.forecastTitleContainer {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.forecastSearch {
+  margin-top: 20px;
+  display: flex;
+}
+
+.forecastSearch > input {
+  margin-right: 10px;
+  text-indent: 10px;
+  border: none;
+  padding: 5px;
+  width: 600px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+.forecastSearchButton {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1c3355;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}

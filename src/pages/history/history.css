@@ -1,0 +1,43 @@
+.history {
+  flex: 4;
+  padding: 20px;
+}
+
+.historyTitleContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.historyTitle {
+  margin-bottom: 10px;
+}
+.historySearch {
+  display: flex;
+  margin-bottom: 20px;
+}
+.historySearch > input {
+  margin-right: 10px;
+  text-indent: 10px;
+  border: none;
+  padding: 5px;
+  width: 800px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  outline: none !important;
+  outline-width: 0 !important;
+}
+
+.historyLastestButton {
+  border: none;
+  border-radius: 5px;
+  background-color: #1c3355;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.loginContainer {
+  display: flex;
+  margin-top: 90px;
+  flex-direction: column;
+  align-items: center;
+}
+.loginTop {
+  width: 100%;
+  height: 70px;
+  background-color: #1c3355;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.loginTitle {
+  margin-bottom: 15px;
+}
+.loginInput > input {
+  margin: 20px;
+  text-indent: 10px;
+  border: none;
+  padding: 5px;
+  width: 300px;
+  height: 30px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+
+.loginSubmit > button {
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1c3355;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: row;
+  color: red;
+  align-items: center;
+}
+
+.wrongIcon {
+  margin-right: 5px;
+  font-size: 30px !important;
+}

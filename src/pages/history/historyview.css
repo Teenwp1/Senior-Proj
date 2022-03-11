@@ -1,0 +1,33 @@
+.historyview {
+  flex: 4;
+  padding: 20px;
+}
+
+.historyviewTitleContainer {
+  display: flex;
+
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 16px;
+
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.historyviewTitle {
+  margin-bottom: 10px;
+}
+
+.backbutton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  margin-right: 20px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #333333;
+  font-size: 16px;
+}

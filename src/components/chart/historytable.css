@@ -1,0 +1,12 @@
+.historytable {
+  margin-right: 15px;
+}
+.historytableView {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
